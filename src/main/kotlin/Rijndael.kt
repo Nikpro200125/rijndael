@@ -109,6 +109,7 @@ class Rijndael(input: File, password: String, nb: Int, nk: Int) {
                 key[4 * i + j] = tmp[j]
             }
         }
+        
         // Генерация расщиренного ключа
         keyExpansion()
 
